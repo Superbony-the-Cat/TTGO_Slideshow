@@ -17,7 +17,7 @@ find *.h -type f -exec sed -i 's/.jpg//g' {} \;     # finde in allen  *.h   ".jp
 
 
 
-# Ergebnis in
+# result in the Folder
 
 # p01.h
 
