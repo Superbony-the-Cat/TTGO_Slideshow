@@ -12,15 +12,3 @@
 find -name '*.jpg' | # find jpegs
 gawk 'BEGIN{ a=1 }{ printf "mv %s %02d.jpg\n", $0, a++ }' | # build mv command   01 - 99
 bash # run that command
-
-
-
-
-
-
-
-
-#for file in *.jpg;
-#do convert -resize 135x240! -- "$file" "p${file%%.jpg}.jpg";
-# rm "${file%%.jpg}.jpg";
-#done
